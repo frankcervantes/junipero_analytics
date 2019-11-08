@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-section">
+      <% include ./partials/nav %>
+      <div class="content">
+        <div class="top"></div>
+        <div class="middle middle__signup">
+          <h2>
+            <span>WE'RE</span>
+            <span>COMING</span>
+            <span>SOON</span>
+          </h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo necessitatibus cum provident quisquam
+            fugiat voluptas impedit recusandae? Aspernatur, quas maxime at ad consequatur odit eius quasi beatae neque
+            saepe tempore.
+          </p>
+          <div class="form">
+            <input type="text" class="input input__email" name="email" placeholder="NAME@EXAMPLE.COM">
+            <input type="submit" class="input input__submit" value="SIGN UP">
+          </div>
+        </div>
+        <div class="middle middle__thankyou">
+          <h2>
+            <span>THANK YOU</span>
+          </h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quos temporibus atque veniam
+            veritatis. Fuga, ducimus! Aut rem praesentium nihil autem quo quidem, quae possimus. Voluptate totam
+            quidem et asperiores.
+          </p>
+          <button>BACK</button>
+        </div>
+        <div class="middle middle__location">
+          <iframe width="600" height="500" id="gmap_canvas"
+            src="https://maps.google.com/maps?q=flatiron&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+        <div class="bottom"></div>
+      </div>
+      <% include ./partials/footer %>
+    </div>
+    <div class="bg-image"></div>
+  </div>
+  <script src="scripts/index.js"></script>
+
+</body>
+
+</html>

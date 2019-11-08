@@ -1,0 +1,27 @@
+.footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+
+  .social {
+    & > a {
+      text-decoration: none;
+      margin-left: 15px;
+
+      svg {
+        height: 20px;
+        width: 20px;
+        fill: $green;
+
+        &:hover {
+          fill: $purple;
+        }
+      }
+    }
+  }
+
+  @include breakpoint(mobile) {
+    order: 4;
+    height: 50px;
+  }
+}
