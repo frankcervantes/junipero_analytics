@@ -27,7 +27,7 @@ STRUCTURES
   transition: background 0.3s ease-in-out;
   border: none; }
   .content .middle__thankyou button:hover, .content .middle .form .input__submit:hover {
-    background-color: #1d1145; }
+    background-color: #086e72; }
 
 .nav .location {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
@@ -82,7 +82,7 @@ STRUCTURES
           width: 75%;
           background: #fdfcfb;
           font-family: inherit;
-          color: #1d1145;
+          color: #f9f3eb;
           letter-spacing: 1px;
           text-indent: 5%;
           border-radius: 5px 0 0 5px; }
@@ -104,11 +104,15 @@ STRUCTURES
       width: 20px;
       fill: #0db4b9; }
       .footer .social > a svg:hover {
-        fill: #1d1145; }
+        fill: #f9f3eb; }
+        @media (max-width: 767px) {
+          .footer .social > a svg:hover {
+            fill: #1d1145; } }
   @media (max-width: 767px) {
     .footer {
       order: 4;
-      height: 50px; } }
+      height: 50px;
+      background-color: #1d1145; } }
 
 /*********************
 IMPORTS
@@ -133,7 +137,7 @@ STRUCTURES
   transition: background 0.3s ease-in-out;
   border: none; }
   .content .middle__thankyou button:hover, .content .middle .form .input__submit:hover {
-    background-color: #1d1145; }
+    background-color: #086e72; }
 
 .nav .location {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
@@ -159,7 +163,10 @@ STRUCTURES
         width: 100%;
         height: 100%; }
         .nav .logo__svg svg path {
-          fill: #1d1145; }
+          fill: #f9f3eb; }
+          @media (max-width: 767px) {
+            .nav .logo__svg svg path {
+              fill: #f9f3eb; } }
   .nav .location {
     cursor: pointer;
     margin-right: 20px;
@@ -167,7 +174,9 @@ STRUCTURES
     text-align: center; }
   @media (max-width: 767px) {
     .nav {
-      order: 1; } }
+      order: 1;
+      color: #f9f3eb;
+      background-color: #1d1145; } }
 
 /*********************
 IMPORTS
@@ -192,7 +201,7 @@ STRUCTURES
   transition: background 0.3s ease-in-out;
   border: none; }
   .content .middle__thankyou button:hover, .content .middle .form .input__submit:hover {
-    background-color: #1d1145; }
+    background-color: #086e72; }
 
 .nav .location {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
@@ -206,7 +215,7 @@ STRUCTURES
 body {
   padding: 0;
   margin: 0;
-  color: #1d1145;
+  color: #f9f3eb;
   font-family: "Raleway", sans-serif; }
 
 .container {
@@ -214,7 +223,7 @@ body {
   width: 100%;
   height: 100vh; }
   .container .left-section {
-    background-color: #f9f3eb;
+    background-color: #1d1145;
     flex: 1;
     display: flex;
     height: auto;

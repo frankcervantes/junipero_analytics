@@ -10,6 +10,7 @@ VARIABLES
 $eggshell: #f9f3eb;
 $purple: #1d1145;
 $green: #0db4b9;
+$dark-green: #086e72;
 $neon-green: #84fab0;
 $pink: #e76d89;
 $white: #fdfcfb;
@@ -45,7 +46,7 @@ STRUCTURES
   border: none;
 
   &:hover {
-    background-color: $purple;
+    background-color: $dark-green;
   }
 }
 

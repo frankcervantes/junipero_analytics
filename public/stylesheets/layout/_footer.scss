@@ -14,7 +14,11 @@
         fill: $green;
 
         &:hover {
-          fill: $purple;
+          fill: $eggshell;
+
+          @include breakpoint(mobile) {
+            fill: $purple;
+          }
         }
       }
     }
@@ -23,5 +27,6 @@
   @include breakpoint(mobile) {
     order: 4;
     height: 50px;
+    background-color: $purple;
   }
 }
